@@ -1,0 +1,31 @@
+name: module_14_assignemnt
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+# This section defines the Dart SDK version constraint.
+# It should be at the top level, not inside 'dependencies'.
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+# This section lists all the packages your app needs to run.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The http package is required for making API calls.
+  http: ^1.2.1
+
+  cupertino_icons: ^1.0.2
+
+# This section lists packages needed for development and testing.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+# This section is for Flutter-specific configurations.
+flutter:
+  uses-material-design: true
